@@ -1,0 +1,354 @@
+* {
+  box-sizing: border-box;
+  font-feature-settings: "palt";
+  font-family: 'Arial','游ゴシック体','Osaka','ヒラギノ角ゴ Pro','Menlo','DIN Alternates';
+}
+html {
+  font-size: 62.5%;
+}
+.message h1,.sns h2,.shop h2,.map h2 {
+  color: #574643;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 56px;
+  letter-spacing: 3px;
+}
+.message,.sns-wrap,.shop,.map {
+  padding-bottom: 96px;
+}
+.message,.recommend,.sns-wrap,.map {
+  margin-top: 112px;
+}
+.message-center,.item,.sns {
+	opacity : 0;
+	visibility: hidden;
+	transition: 1s;
+	transform: translateY(30px);
+}
+/*アニメーション要素までスクロールした時のスタイル*/
+.active{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+#page_top{
+  width: 56px;
+  height: 56px;
+  position: fixed;
+  right: 48px;
+  bottom: 48px;
+  background: #574643;
+  border-radius: 50%;
+  z-index: 100;
+}
+#page_top a:hover {
+  opacity: 0.9;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 56px;
+  height: 56px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f062';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a:hover {
+  cursor: pointer;
+}
+/*ヘッダー*/
+header {
+  position: relative;
+  height: 56px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: 0.5s;
+  z-index: 100;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 56px;
+}
+.site-header a {
+  color: #fff;
+  transition: 0.5s;
+  font-weight: bold;
+  font-family: 'Hiragino Kaku Gothic Std','arial black';
+}
+.site-header.change-color a {
+  color: #574643;
+  font-size: 1rem;
+  transition: 0.5s;
+  background-color: rgba(255, 255, 255, 0);
+}
+.site-header a:hover,.site-header.change-color a:hover {
+  font-size: 1.3rem;
+}
+header img {
+  height: 40px;
+  width: auto;
+  margin: 8px 32px;
+  line-height: 56px;
+}
+.logo-link {
+  height: 56px;
+}
+.header-list {
+  display: flex;
+  list-style: none;
+}
+.header-list li a {
+  font-size: 1rem;
+  line-height: 56px;
+}
+.header-link {
+  margin-right: 32px;
+}
+.header-link.change-color{
+  margin-right: 32px;
+}
+.lang {
+  border: solid 2px #fff;
+  padding: 6px;
+  margin-right: 32px;
+  font-size: 1.2rem;
+}
+.change-color .lang{
+  border: solid 2px #574643;
+  padding: 4px;
+  margin-right: 32px;
+  font-size: 1.8rem;
+}
+/*ヘッダーの変更後の背景*/
+.change-color {
+  background-color: rgba(255 , 255, 255, 0.753);
+  transition: 0.5s;
+}
+/*トップ*/
+.top {
+  background-image: url(img/sample/4507419_s.png);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.top-img {
+  text-align: center;
+  width: 100%;
+}
+.top-img img {
+  background-color: rgba(255, 255, 255, 0.733);
+  width: 30%;
+  padding: 48px;
+  border-radius: 56px;
+  margin: 160px 0;
+}
+/*メッセージ*/
+.message-z {
+  z-index: 1;
+}
+.message-p p  {
+  color: #574643;
+}
+.message-center {
+  margin: 0 auto;
+  padding: 16px 16px;
+  position: relative;
+  z-index: 10;  /* 追加 */
+  background: none;
+  text-transform: uppercase;
+  z-index: 10;
+}
+.message-center::after {
+  position: absolute;
+  top: 16px;
+  left: -16px;
+  content: "";
+  height: 90%;
+  width: 100%;
+  z-index: -999;
+  background-color: #f8e6e6;
+  padding: 24px 32px;
+}
+.message-center::before {
+  position: absolute;
+  border: 1px solid #ff7177;
+  content: "";
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -998;  /* afterの数値より上にする */
+  padding: 24px 32px;
+}
+.message-center {
+  width: 40%;
+}
+.message-center img {
+  width: 30%;
+}
+.message-img {
+  text-align: right;
+  margin-top: -80px;
+}
+.message-p{
+  font-size: 1rem;
+  padding: 24px 32px;
+  line-height: 1.5;
+}
+.messa {
+  margin-bottom: 24px;
+}
+.messa-main {
+  font-size: 1.6rem;
+}
+/*アイテム*/
+.semicircle {
+  position: relative;
+  background: #fff;
+  height: 55vh;
+  z-index: -100;
+}
+.semicircle::before {
+  position: absolute;
+  content: '';
+  left: 50%;
+  z-index: 10;
+  width: 504px;
+  height: 304px;
+  border-radius: 50%;
+  background-image: url(img/item-back.png);
+  transform: translateX(-50%) translateY(50%);
+  bottom: -272px;
+  z-index: -99;
+}
+.recommend h2 {
+  color: #574643;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 56px;
+  letter-spacing: 3px;
+}
+.recommend {
+  margin-top: 184px;
+  z-index: 10;
+}
+.recommend-size {
+  padding-bottom: 96px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(img/item-back.png);
+}
+.item {
+  text-align: center;
+  width: 30%;
+  margin: 96px 16px 0 16px;
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.item img {
+  width: 40%;
+  margin-bottom: 32px;
+}
+.dounuts {
+  background-color: #fff;
+  width: 100%;
+  padding: 32px 16px;
+  border-radius: 32px;
+  margin: 0 auto;
+}
+.dounuts h3 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  letter-spacing: 1.5;
+}
+.dounuts h4 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+}
+.dounuts p {
+  font-size: 0,8rem;
+  line-height: 1.2;
+}
+.item-link {
+  text-align: center;
+}
+/*sns*/
+.sns {
+  width: 50%;
+  margin: 0 auto;
+}
+.icon {
+  text-align: center;
+  width: 8%;
+  margin: 0 auto;
+}
+.icon p {
+  margin: 24px 0;
+  color: #574643;
+  font-size: 1.2rem;
+}
+.fa-color {
+  color: #574643;
+}
+.icon-img {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-img a {
+  display: block;
+}
+.insta:hover,.facebook:hover{
+  cursor: pointer;
+  font-size: 3.5rem;
+  transition: 0.7s;
+}
+/*ショップ*/
+.shop {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #e9dede;
+  padding-top: 112px;
+}
+/*マップ*/
+.map-link {
+  width: 60%;
+  margin: 0 auto;
+}
+.map-link p {
+  font-size: 1rem;
+  margin: 16px;
+  line-height: 1.5;
+}
+/*フッター*/
+footer {
+  height: 40px;
+  background: #8b7e7e;
+}
+footer p {
+  font-size: 0.7rem;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+}

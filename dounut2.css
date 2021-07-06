@@ -1,0 +1,94 @@
+@media (max-width: 1024px){
+  /*ヘッダー*/
+  header img {
+    height: 40px;
+    width: auto;
+    margin: 8px 32px;
+    line-height: 56px;
+  }  
+  .header-link {
+    display: none;
+  }
+  .header-list li a {
+    line-height: 24px;
+  }  
+  .lang-li {
+    height: 56px;
+  }
+  .lang {
+    display: block;
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 2rem;
+  }
+  .change-color .lang{
+    padding: 8px;
+    margin-right: 32px;
+    font-size: 2rem;
+  }  
+  /*トップ*/
+  .top-img img{
+    width: 70%;
+  }
+  /*メッセージ*/
+  .message {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 152px;
+  }
+  .message-center {
+    width: 90%;
+    padding: 32px 32px;
+  }
+  .message-center::after {
+    padding: 0px;
+  }
+  .message-center::before {
+    padding: 16px 16px 16px 0px;
+  }
+  .message-img {
+    padding-bottom: 32px;
+  }
+  /*アイテム*/
+  .semicircle {
+    height: 50vh;
+  }  
+  .semicircle::before {
+    width: 400px;
+    margin-bottom: -72px;
+  }
+  .recommend h2 {
+    margin-top: 248px;
+  }
+  .recommend-size {
+    width: 100%;
+    padding-bottom: 80px;
+  }
+  .items {
+    width: 100%;
+  }
+  .item {
+    width: 40%;
+    margin: 56px 8px 0 8px;
+  }
+  .item img {
+    width: 50%;
+  }  
+  /*sns*/
+  .sns {
+    width: 80%;
+  }  
+  .icon {
+    text-align: center;
+    width: 15%;
+    margin: 0 auto;
+  }
+  /*ショップ*/
+  .shop img {
+    width: 80%;
+  }
+  /*マップ*/
+  .map-link {
+    width: 80%;
+  }  
+}

@@ -1,0 +1,169 @@
+@media (max-width: 599px){
+  .message h1,.sns h2,.shop h2,.map h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 32px;
+    letter-spacing: 3px;
+  }  
+  .message,.recommend,.sns-wrap,.map {
+    margin-top: 56px;
+  }
+  .message,.sns-wrap,.shop,.map {
+    padding-bottom: 40px;
+  }  
+  #page_top{
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+  }
+  #page_top a {
+    width: 40px;
+    height: 50px;  
+  }
+  #page_top a::before{
+    font-size: 15px;
+  }
+  /*ヘッダー*/
+  header {
+    z-index: 100;
+  }
+  header img {
+    height: 30px;
+    width: auto;
+    margin: 16px;
+  }
+  .header-list li a {
+    font-size: 0.8rem;
+    line-height: 24px;
+  }  
+  .lang {
+    margin: 8px 16px;
+  }
+  .change-color .lang{
+    padding: 8px;
+    margin: 8px 16px;
+    font-size: 0.8rem!important;
+  }  
+  /*トップ*/
+  .top-img img {
+    margin: 100px 0;
+  }
+  /*メッセージ*/
+  .messa-main {
+    font-size: 1rem;
+  }
+  .message-center {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .message-img {
+    text-align: center;
+  }
+  .message-img img {
+    width: 50%;
+    margin-top: 80px;
+  }
+  .message-p{
+    padding: 20px 20px;
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  .messa-main {
+    font-size: 1.2rem;
+  }  
+  .message-center {
+    margin: 0 auto;
+    padding: 16px 16px;
+  }
+  .message-center::after {
+    padding: 0px 0px;
+    top: 8px;
+    left: -8px;  
+  }
+  .message-center::before {
+    padding: 0px 1px;
+    height: 95%;
+  }
+  /*アイテム*/
+  .semicircle {
+    height: 30vh;
+  }  
+  .semicircle::before {
+    bottom: -344px;
+    width: 240px;
+    height: 160px;
+  }
+  .recommend h2 {
+    margin-top: 160px;
+    padding: 200px 0 16px 0;
+    font-size: 25px;
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+  }
+  .recommend {
+    margin-top: 180px;
+    z-index: 10;
+  }
+  .recommend-size {
+    padding: 16px 0 32px 0;
+  }
+  .item {
+    margin-top: 0px;
+    padding: 0 0 16px 0;
+    width: 45%;
+  }
+  .item img {
+    margin: 16px 0 8px 0;
+    width: 70%;
+  }
+  .dounuts {
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 24px 8px;
+  }
+  .dounuts p {
+    font-size: 10px;
+  }
+  .dounuts h3 {
+    font-size: 18px;
+  }
+  .dounuts h4 {
+    font-size: 15px;
+  }
+  /*sns*/
+  .sns {
+    width: 80%;
+    margin: 0 auto;
+  } 
+  .icon {
+    width: 80%;
+  }
+  .icon-img {
+    width: 25%;
+    margin: 0 auto;
+  }
+  .insta,.facebook {
+    font-size: 30px!important;
+  }
+  .icon p {
+    font-size: 15px;
+  }
+  /*ショップ*/
+  .shop {
+    padding-top: 56px;
+  }  
+  .shop img {
+    width: 90%;
+  }
+  /*sns*/
+  .sns-wrap {
+    margin-top: 56px;
+  }
+ /*マップ*/
+  .map-link {
+    width: 90%;
+  }  
+  .map-link p {
+    font-size: 0.8rem;
+  }  
+}
