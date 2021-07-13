@@ -40,13 +40,16 @@
     width: 90%;
     padding: 32px 32px;
   }
-  .message-center::after {
-    padding: 0px;
+    .message-center::after {
+    padding: 0px 0px 16px 0;
+    top: 8px;
+    left: -8px;  
   }
   .message-center::before {
-    padding: 0px;
-    height: 90%;
+    padding: 0px 1px;
+    height: 93%;
   }
+
   .message-img {
     padding-bottom: 32px;
   }
