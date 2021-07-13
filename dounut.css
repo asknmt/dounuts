@@ -195,7 +195,7 @@ header img {
   height: 100%;
   width: 100%;
   z-index: -998;  /* afterの数値より上にする */
-  padding: 24px 32px;
+  padding: 8px 32px;
 }
 .message-center {
   width: 40%;
