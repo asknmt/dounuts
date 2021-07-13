@@ -44,14 +44,15 @@
     padding: 0px;
   }
   .message-center::before {
-    padding: 16px 16px 16px 0px;
+    padding: 0px;
+    height: 90%;
   }
   .message-img {
     padding-bottom: 32px;
   }
   /*アイテム*/
   .semicircle {
-    height: 50vh;
+    height: 40vh;
   }  
   .semicircle::before {
     width: 400px;
