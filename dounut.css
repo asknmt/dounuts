@@ -8,7 +8,7 @@ html {
 }
 .message h1,.sns h2,.shop h2,.map h2 {
   color: #574643;
-  font-size: 35px;
+  font-size: 3rem;
   text-align: center;
   margin-bottom: 56px;
   letter-spacing: 3px;
@@ -99,7 +99,7 @@ header {
   background-color: rgba(255, 255, 255, 0);
 }
 .site-header a:hover,.site-header.change-color a:hover {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 header img {
   height: 40px;
@@ -115,7 +115,7 @@ header img {
   list-style: none;
 }
 .header-list li a {
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 56px;
 }
 .header-link {
@@ -128,13 +128,13 @@ header img {
   border: solid 2px #fff;
   padding: 6px;
   margin-right: 32px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .change-color .lang{
   border: solid 2px #574643;
   padding: 4px;
   margin-right: 32px;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
 }
 /*ヘッダーの変更後の背景*/
 .change-color {
@@ -208,7 +208,7 @@ header img {
   margin-top: -80px;
 }
 .message-p{
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding: 24px 32px;
   line-height: 1.5;
 }
@@ -240,7 +240,7 @@ header img {
 }
 .recommend h2 {
   color: #574643;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   text-align: center;
   margin-bottom: 56px;
   letter-spacing: 3px;
@@ -279,16 +279,16 @@ header img {
   margin: 0 auto;
 }
 .dounuts h3 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin-bottom: 8px;
   letter-spacing: 1.5;
 }
 .dounuts h4 {
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   margin-bottom: 16px;
 }
 .dounuts p {
-  font-size: 0,8rem;
+  font-size: 1.1rem;
   line-height: 1.2;
 }
 .item-link {
@@ -301,7 +301,7 @@ header img {
 }
 .icon {
   text-align: center;
-  width: 20%;
+  width: 8%;
   margin: 0 auto;
 }
 .icon p {
@@ -337,7 +337,7 @@ header img {
   margin: 0 auto;
 }
 .map-link p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin: 16px;
   line-height: 1.5;
 }
@@ -347,7 +347,7 @@ footer {
   background: #8b7e7e;
 }
 footer p {
-  font-size: 0.7rem;
+  font-size: 1rem;
   line-height: 40px;
   color: #fff;
   text-align: center;
