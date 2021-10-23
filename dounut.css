@@ -391,6 +391,26 @@ header img {
   background-color: #e9dede;
   padding-top: 112px;
 }
+.shop-img {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shop2 {
+  width: 30%;
+}
+.shop1 {
+  width: 50%;
+}
+.time {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 80px;
+  color: #574643;
+}
+
 /*マップ*/
 .map-link {
   width: 60%;
