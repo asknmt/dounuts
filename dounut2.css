@@ -38,30 +38,26 @@
   }
   .message-center {
     width: 90%;
-    padding: 32px 32px;
+    padding: 32px 16px;
   }
-    .message-center::after {
-    padding: 0px 0px 16px 0;
-    top: 8px;
-    left: -8px;  
+  .message-center::after {
+    padding: 0px;
   }
   .message-center::before {
-    padding: 0px 1px;
-    height: 93%;
+    padding: 0px;
+    height: 90%;
   }
-
   .message-img {
     padding-bottom: 32px;
+  }
+  .message-img img {
+    width: 30%;
+    margin-right: 24px;
   }
   /*アイテム*/
   .semicircle {
     height: 40vh;
   }  
-  @media (orientation: landscape){
-  .semicircle {
-    height: 50vh;
-  } 
-}
   .semicircle::before {
     width: 400px;
     margin-bottom: -72px;
@@ -71,30 +67,97 @@
   }
   .recommend-size {
     width: 100%;
-    padding-bottom: 80px;
+    padding: 40px;
   }
   .items {
     width: 100%;
   }
   .item {
-    width: 40%;
-    margin: 56px 8px 0 8px;
+    width: 80%;
   }
   .item img {
-    width: 50%;
+    width: 40%;
   }  
+  .Caramel:before {
+    content: "";
+    width: 50px;
+    height: 1px;
+    border-bottom: 1px solid #574643;
+    display: block;
+    position: absolute;
+    top: 110px;
+    right: 40%;
+    z-index: 98;
+  }
+  .mokha-p:before {
+    content: "";
+    width: 50px;
+    height: 1px;
+    border-bottom: 1px solid #574643;
+    display: block;
+    position: absolute;
+    top: 110px;
+    right: 50%;
+    z-index: 98;
+  }
+  .matcha:before {
+    content: "";
+    width: 50px;
+    height: 1px;
+    border-bottom: 1px solid #574643;
+    display: block;
+    position: absolute;
+    top: 110px;
+    right: 40%;
+    z-index: 98;
+  }
+  .fragolia-p:before {
+    content: "";
+    width: 50px;
+    height: 1px;
+    border-bottom: 1px solid #574643;
+    display: block;
+    position: absolute;
+    top: 110px;
+    right: 50%;
+    z-index: 98;
+  }
+  .item-back::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 80%;
+    height: 900px;
+    z-index: 0;
+    top: 1850px;
+    left: 10%;
+    background-color: #fff;
+  }
+  
   /*sns*/
   .sns {
-    width: 80%;
+    width: 100%;
   }  
+  .iframe-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .iframe-wrapper iframe {
+    max-width: 100%;
+  }
+
   .icon {
     text-align: center;
-    width: 15%;
+    width: 20%;
     margin: 0 auto;
   }
   /*ショップ*/
-  .shop img {
+  .shop-img {
     width: 80%;
+  }  
+  .shop img {
+    width: 45%;
   }
   /*マップ*/
   .map-link {
