@@ -20,16 +20,16 @@ html {
   margin-top: 112px;
 }
 .message-center,.item,.sns {
-	opacity : 0;
-	visibility: hidden;
-	transition: 1s;
-	transform: translateY(30px);
+  opacity : 0;
+  visibility: hidden;
+  transition: 1s;
+  transform: translateY(30px);
 }
 /*アニメーション要素までスクロールした時のスタイル*/
 .active{
-	opacity: 1;
-	visibility: visible;
-	transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 #page_top{
   width: 56px;
