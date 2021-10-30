@@ -400,8 +400,6 @@ header img {
 }
 .insta:hover,.facebook:hover{
   cursor: pointer;
-  font-size: 3.5rem;
-  transition: 0.7s;
 }
 /*ショップ*/
 .shop {
